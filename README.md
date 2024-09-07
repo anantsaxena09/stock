@@ -23,7 +23,7 @@ This is a full-stack web application for managing stocks. It allows users to add
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/yourusername/your-repository.git
+    git clone https://github.com/anantsaxena09/stock.git
     cd your-repository
     ```
 
