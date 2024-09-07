@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.form-section {
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.stock-list {
+    margin-top: 30px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+}
+
+li button {
+    background-color: #dc3545;
+    border: none;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 4px;
+}
+
+li button:hover {
+    background-color: #c82333;
+}
+
+.edit-form-section {
+    margin-top: 20px;
+}
+
+#editStockForm button {
+    margin-right: 10px; 
+}
+
+#editStockForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#editStockForm button[type="submit"] {
+    margin-bottom: 10px; 
+}
+
+#editStockForm button[type="button"] {
+    align-self: flex-start;
+}
+
+#cancelEditBtn {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#cancelEditBtn:hover {
+    background-color: #c82333;
+}
